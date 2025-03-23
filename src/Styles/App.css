@@ -1,0 +1,22 @@
+/* Custom styles for navbar links */
+.custom-link {
+  padding: 10px 20px; /* Adjust padding (top/bottom, left/right) */
+  color: #939292 !important;  /* Custom text color (Tomato color in this case) */
+  font-weight: bold;  /* Make the text bold */
+}
+
+.custom-link:hover {
+  color: #fff !important;  /* Change text color on hover to white */
+  background-color: #555 !important;  /* Change background color on hover */
+  border-radius: 5px;  /* Optional: rounded corners on hover */
+}
+
+.form-control {
+  width: 300px;  /* Shorten the input fields to a specific width */
+  margin-left: 0;  /* Align the input fields to the left */
+  margin-right: auto;  /* Ensure the input fields are aligned to the left */
+  display: block;  /* Ensure inputs are block elements */
+}
+
+
+
