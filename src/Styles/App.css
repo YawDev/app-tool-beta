@@ -67,6 +67,13 @@ body{
 
 }
 
+.form-control{
+  background-color: white;
+  border-radius: 12px;
+  width: 70%;
+
+}
+
 /* .container{
   background-color: white;
   border-radius: 12px;
@@ -93,4 +100,5 @@ body{
   margin-top: 10px;
   margin-left: 280px;
   display: flexbox;
+  position: sticky;
 }
