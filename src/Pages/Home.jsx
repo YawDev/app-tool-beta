@@ -1,9 +1,16 @@
+import BannerImageComponent from "../Components/BannerImageComponent"
 
 
 
 function Home() {
     return (
-         <><h1>Hello Word.</h1></>
+        <div className="banner-card">
+            <div className="container">
+                <h3 className="bannerTitle">Grow Business Revenue with Investment</h3>
+                <BannerImageComponent/>
+            </div>
+        </div>
+        
      )
 }
 
