@@ -18,5 +18,79 @@
   display: block;  /* Ensure inputs are block elements */
 }
 
+body{
+  /* background-color: rgb(91, 94, 106); */
+  background-color: aliceblue;
+  line-height: 1.5;
+  font-weight: 400;
+}
 
 
+#bannerWrapper{
+  width: 100%;
+  background-position: center;
+}
+
+#bannerImg{
+  border-radius: 8px;
+  width: 60%;
+
+}
+
+#learnMoreBtn{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  margin-top: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #a56c6c;
+  cursor: pointer;
+  color: white;
+  transition: border-color 0.25s;
+}
+
+#learnMoreBtn:hover {
+  border-color: #646cff;
+}
+#learnMoreBtn:focus,
+#learnMoreBtn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.mt-4{
+  background-color: white;
+  border-radius: 12px;
+  width: 70%;
+  padding: 15px;
+
+}
+
+/* .container{
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  width: 60%;
+  margin-top: 10px;
+} */
+
+.bannerTitle{
+  color: #6b6b6b;
+}
+
+#signUpTitle{
+  color: #6e6767;
+  margin-left: 10px;
+}
+
+
+.banner-card{
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 280px;
+  display: flexbox;
+}

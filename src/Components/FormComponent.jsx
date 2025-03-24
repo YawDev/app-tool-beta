@@ -22,7 +22,8 @@ function FormComponent() {
       };
 
     return (
-        <Container className="mt-4">
+      <Container className="mt-4">
+          <h2 id='signUpTitle'>Sign Up</h2>
             <form className="mt-4" onSubmit={handleSubmit}>
             <div className="mb-3">
             <label htmlFor="firstname" className="form-label">First Name</label>

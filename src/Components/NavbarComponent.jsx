@@ -19,7 +19,7 @@ function NavbarComponent() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto"> 
               <li className="nav-item active">
-                <a className="nav-link custom-link" href="#">Manage Tool</a>
+                <a className="nav-link custom-link" href="#">Dashboard</a>
                 </li>
                 
                 <li className="nav-item active">
