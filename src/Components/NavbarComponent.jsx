@@ -10,7 +10,7 @@ function NavbarComponent() {
       <Router>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand me-auto" href="/">  <img src="./react.svg" /></a>
+          <a className="navbar-brand me-auto" href="/">  <img src="./react.svg" /> App Tool Beta</a>
   
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
